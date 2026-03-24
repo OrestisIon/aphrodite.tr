@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200">
+  <!-- Background: deep forest green -->
+  <rect width="560" height="200" fill="#1A3C2A"/>
+
+  <!-- Olive branch motif — left wing (cream) -->
+  <g fill="#F5EDDB">
+    <ellipse cx="207" cy="91" rx="6" ry="3" transform="rotate(-30 207 91)"/>
+    <ellipse cx="216" cy="88" rx="5.5" ry="2.8" transform="rotate(-20 216 88)"/>
+    <ellipse cx="225" cy="87" rx="5.5" ry="2.8" transform="rotate(-10 225 87)"/>
+    <ellipse cx="234" cy="86.5" rx="5" ry="2.5" transform="rotate(5 234 86.5)"/>
+  </g>
+
+  <!-- Olive branch motif — right wing (cream, mirrored) -->
+  <g fill="#F5EDDB">
+    <ellipse cx="353" cy="91" rx="6" ry="3" transform="rotate(30 353 91)"/>
+    <ellipse cx="344" cy="88" rx="5.5" ry="2.8" transform="rotate(20 344 88)"/>
+    <ellipse cx="335" cy="87" rx="5.5" ry="2.8" transform="rotate(10 335 87)"/>
+    <ellipse cx="326" cy="86.5" rx="5" ry="2.5" transform="rotate(-5 326 86.5)"/>
+  </g>
+
+  <!-- Gold olive berries -->
+  <circle cx="207" cy="89" r="2" fill="#C9A84C"/>
+  <circle cx="225" cy="85" r="2" fill="#C9A84C"/>
+  <circle cx="335" cy="85" r="2" fill="#C9A84C"/>
+  <circle cx="353" cy="89" r="2" fill="#C9A84C"/>
+
+  <!-- Rules -->
+  <line x1="185" y1="99" x2="375" y2="99" stroke="#F5EDDB" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- APHRODITE — cream -->
+  <text
+    x="280"
+    y="133"
+    font-family="'Cormorant Garamond', 'IM Fell English', Georgia, 'Times New Roman', serif"
+    font-size="44"
+    font-weight="300"
+    letter-spacing="5"
+    fill="#F5EDDB"
+    text-anchor="middle"
+  >APHRODITE</text>
+
+  <line x1="185" y1="141" x2="375" y2="141" stroke="#F5EDDB" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- TREATS — gold -->
+  <text
+    x="280"
+    y="160"
+    font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+    font-size="14"
+    font-weight="400"
+    letter-spacing="8"
+    fill="#C9A84C"
+    text-anchor="middle"
+  >TREATS</text>
+
+  <!-- Descriptor -->
+  <text
+    x="280"
+    y="178"
+    font-family="'Lato', 'Helvetica Neue', Arial, sans-serif"
+    font-size="8.5"
+    font-weight="300"
+    letter-spacing="3.5"
+    fill="#F5EDDB"
+    text-anchor="middle"
+    opacity="0.6"
+  >ARTISAN DELI · LONDON</text>
+</svg>
