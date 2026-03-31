@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#1A3C2A"/>
-  <!-- Olive branch left -->
-  <ellipse cx="22" cy="30" rx="5" ry="2.5" fill="#7A9E7E" transform="rotate(-20 22 30)"/>
-  <ellipse cx="28" cy="28" rx="5" ry="2.5" fill="#7A9E7E" transform="rotate(-10 28 28)"/>
-  <!-- Olive branch right -->
-  <ellipse cx="42" cy="30" rx="5" ry="2.5" fill="#7A9E7E" transform="rotate(20 42 30)"/>
-  <ellipse cx="36" cy="28" rx="5" ry="2.5" fill="#7A9E7E" transform="rotate(10 36 28)"/>
-  <!-- Gold berries -->
-  <circle cx="22" cy="28" r="2" fill="#C9A84C"/>
-  <circle cx="42" cy="28" r="2" fill="#C9A84C"/>
-  <!-- A letterform -->
-  <text x="32" y="46" font-family="Georgia, serif" font-size="20" font-weight="300" fill="#F5EDDB" text-anchor="middle">A</text>
+  <!-- Deep forest green background with rounded corners -->
+  <rect width="64" height="64" rx="10" fill="#1A3C2A"/>
+  <!-- Olive leaves (no text, pure geometry) -->
+  <ellipse cx="20" cy="29" rx="6" ry="2.8" fill="#7A9E7E" transform="rotate(-25 20 29)"/>
+  <ellipse cx="28" cy="26" rx="6" ry="2.8" fill="#7A9E7E" transform="rotate(-12 28 26)"/>
+  <ellipse cx="44" cy="29" rx="6" ry="2.8" fill="#7A9E7E" transform="rotate(25 44 29)"/>
+  <ellipse cx="36" cy="26" rx="6" ry="2.8" fill="#7A9E7E" transform="rotate(12 36 26)"/>
+  <!-- Gold olive berries -->
+  <circle cx="21" cy="27" r="2.2" fill="#C9A84C"/>
+  <circle cx="43" cy="27" r="2.2" fill="#C9A84C"/>
+  <!-- "A" letterform built from paths, no text element -->
+  <path d="M 32 33 L 18 53 L 24 53 L 27.5 45 L 36.5 45 L 40 53 L 46 53 Z
+            M 29.5 40 L 32 33 L 34.5 40 Z" fill="#F5EDDB"/>
 </svg>
